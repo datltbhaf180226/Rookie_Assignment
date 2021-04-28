@@ -1,0 +1,75 @@
+.productWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.tableWrapper {
+  width: 60%;
+  padding: 18px;
+  border: 1px solid #ececf5;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 3%);
+  border-radius: 4px;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+.tableHeader span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.addProductIcon svg {
+  font-size: 20px;
+  color: #6d7379;
+}
+
+.addProductIcon :hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.addProductIcon label {
+  padding-left: 10px;
+}
+
+.addProductIcon label :hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.productTable {
+  width: 100%;
+  padding: 10px 0;
+  border-collapse: collapse;
+}
+.productTable thead tr {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.productTable thead tr th {
+  height: 40px;
+}
+.productTable tbody tr td {
+  height: 52px;
+  text-align: center;
+}
+.productTable tbody tr {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.productTable tbody tr:hover {
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.action svg {
+  font-size: 20px;
+  color: #6d7379;
+}

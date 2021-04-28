@@ -1,0 +1,32 @@
+.status-actions {
+  width: 90px;
+}
+
+.status-icon {
+  align-items: center;
+    
+    width: 90%;
+    display: flex;
+    height: 60%;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.reject-icon {
+  color: red;
+  border: 1px solid red;
+}
+
+.reject-icon:hover {
+  background-color: red;
+  color: #fff;
+}
+.approve-icon {
+  color: green;
+  border: 1px solid green;
+}
+
+.approve-icon:hover {
+  background-color: green;
+  color: #fff;
+}
